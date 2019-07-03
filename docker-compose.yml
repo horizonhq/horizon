@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  web-service:
+    image: horizon/web-service:latest
+    ports:
+      - "80:3000"
