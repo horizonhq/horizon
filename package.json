@@ -1,11 +1,16 @@
 {
-  "name": "horizon",
-  "version": "0.1.0",
+  "name": "horizon-web-service",
+  "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
+    "start": "node src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Anton Vorobyev <anton@vorobyev.co>",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  }
 }
