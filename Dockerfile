@@ -14,7 +14,7 @@ WORKDIR /app
 
 COPY --from=build /usr/src/app .
 
-EXPOSE 8080
+EXPOSE 3000
 
 # TODO: replace with server.js
 CMD [ "node", "app.js" ]
